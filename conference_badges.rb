@@ -11,7 +11,7 @@ def batch_badge_creator(array)
   badge_messages
 end
 
-def assign_rooms(list_of_speakers)
+def assign_rooms(attendees)
   #assign each speaker a room
   #make sure each room only has one speaker
   #rooms 1-7 are available
