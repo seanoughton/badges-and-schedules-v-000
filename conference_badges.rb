@@ -13,7 +13,11 @@ end
 
 def assign_rooms(attendees)
   room_assignments = []
-  #assign each speaker a room
+  attendees.each_with_index do|attendee,index|
+    #assign each speaker a room
+    room_assignments << "Hello, #{attendee}! You'll be assigned to room #{index}!"
+  end
+  
   #make sure each room only has one speaker
   #rooms 1-7 are available
   #When you are iterating through an array, you can keep track of the index number of the current iteration using an enumerator method called each_with_index.
