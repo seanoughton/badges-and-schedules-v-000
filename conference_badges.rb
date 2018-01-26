@@ -19,7 +19,7 @@ end
 
 def printer
   #output first the results of the batch_badge_creator method
-  puts batch_badge_creator(array)
+  puts batch_badge_creator
   #then of the assign_rooms method to the screen.
   assign_rooms.each do |x|
     puts x
