@@ -23,7 +23,7 @@ def printer(attendees)
     puts x
   end
   #then of the assign_rooms method to the screen.
-  assign_rooms.each do |x|
+  assign_rooms(attendees).each do |x|
     puts x
   end
   #Hint: Remember that methods can call other methods. If the return value of assign_rooms is an array of room assignments, how can you print out each assignment? You'll need to iterate over your array of room assignments in order to puts out each individual assignment.
